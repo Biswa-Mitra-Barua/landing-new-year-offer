@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     font-family: "Merriweather", serif;
 }
 
 /* banner section styles starts here */
-.banner-container{
+.banner-container {
     /* border: 2px solid red; */
     max-width: 1320px;
     height: 600px;
@@ -21,10 +23,11 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    background-color: rgba(0,0,0,0.45);
+    background-color: rgba(0, 0, 0, 0.45);
     background-blend-mode: overlay;
 }
-.banner-content{
+
+.banner-content {
     color: white;
     display: flex;
     flex-direction: column;
@@ -32,18 +35,21 @@ header{
     align-items: center;
     height: 600px;
 }
-.banner-content p{
+
+.banner-content p {
     font-size: 36px;
     font-weight: 500px;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 70px;
     font-weight: 800px;
     text-align: center;
 }
+
 /* banner section styles ends here */
 /* 65% off section starts here */
-.second-section-container{
+.second-section-container {
     display: flex;
     margin: 0 auto;
     margin-top: 120px;
@@ -52,20 +58,23 @@ header{
     justify-content: center;
     align-items: center;
 }
-.second-section-content h1{
+
+.second-section-content h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
 }
-.second-section-content h6{
+
+.second-section-content h6 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-top: 48px;
 }
-.second-section-content h3{
+
+.second-section-content h3 {
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 48px;
@@ -73,24 +82,27 @@ header{
     margin-top: 16px;
     margin-bottom: 48px;
 }
-.second-section-image{
+
+.second-section-image {
     width: 802.9px;
     height: 500px;
 }
-.second-section-image img{
+
+.second-section-image img {
     width: 100%;
     height: 100%;
 }
+
 /* 65% off section ends here */
 
 /* midnight party section starts here */
-.mid-night-party-container{
+.mid-night-party-container {
     width: 1320px;
     height: 600px;
     /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 120px;
-    background-image: url(/images/mid-night-party.png),linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-image: url(/images/mid-night-party.png), linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -100,7 +112,8 @@ header{
     background-blend-mode: overlay;
     display: flex;
 }
-.left-side-content{
+
+.left-side-content {
     /* color: white; */
     width: 50%;
     height: 600px;
@@ -111,7 +124,8 @@ header{
     align-items: center;
     /* padding: 30px; */
 }
-.left-side-content h1{
+
+.left-side-content h1 {
     /* max-width: 642px; */
     /* height: 176px; */
     color: rgb(255, 255, 255);
@@ -122,7 +136,8 @@ header{
     /* margin-top: 126px;
     margin-left: 126px; */
 }
-.left-side-content p{
+
+.left-side-content p {
     /* max-width: 697px; */
     /* height: 60px; */
     color: rgba(255, 255, 255, 0.8);
@@ -132,25 +147,99 @@ header{
     /* text-align: left; */
     margin: 30px 40px 24px 96px;
 }
-#midnight-btn{
+
+#midnight-btn {
     /* width: 103px;
     height: 24px; */
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    margin-right: 350px; 
+    margin-right: 350px;
     /* text-align: center; */
     /* margin-top: 48px ;*/
 }
-.right-side-content{
+
+.right-side-content {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    */
 }
-.right-side-content img{
+
+.right-side-content img {
     width: 349.16px;
     height: 464.65px;
 }
 
+/* midnight party section ends here */
+
+/* holiday sale section starts here */
+.holiday-section-container {
+    width: 1320px;
+    height: 986.07px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.holiday-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1068px;
+    height: 260px;
+    text-align: center;
+}
+
+.holiday-text-content h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-text-content h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#holi-text {
+    color: rgb(255, 0, 0);
+}
+
+.solid-color-part {
+    width: 1320px;
+    height: 229px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+
+.giftbox-part {
+    width: 674.82px;
+    height: 577.96px;
+    position: absolute;
+    /* position: relative; */
+    /* z-index: 1; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+/* .sparkling-part{
+    margin-top: 324px;
+} */
+
+/* holiday sale section ends here */
