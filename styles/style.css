@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+header{
     font-family: "Merriweather", serif;
 }
 
@@ -40,7 +41,7 @@ body{
     font-weight: 800px;
     text-align: center;
 }
-
+/* banner section styles ends here */
 /* 65% off section starts here */
 .second-section-container{
     display: flex;
@@ -80,3 +81,76 @@ body{
     width: 100%;
     height: 100%;
 }
+/* 65% off section ends here */
+
+/* midnight party section starts here */
+.mid-night-party-container{
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: url(/images/mid-night-party.png),linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    /* margin: 120px 140px; */
+    /* background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%); */
+    background-blend-mode: overlay;
+    display: flex;
+}
+.left-side-content{
+    /* color: white; */
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+}
+.left-side-content h1{
+    /* max-width: 642px; */
+    /* height: 176px; */
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    /* text-align: left; */
+    /* margin-top: 126px;
+    margin-left: 126px; */
+}
+.left-side-content p{
+    /* max-width: 697px; */
+    /* height: 60px; */
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    /* text-align: left; */
+    margin: 30px 40px 24px 96px;
+}
+#midnight-btn{
+    /* width: 103px;
+    height: 24px; */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 350px; 
+    /* text-align: center; */
+    /* margin-top: 48px ;*/
+}
+.right-side-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.right-side-content img{
+    width: 349.16px;
+    height: 464.65px;
+}
+
